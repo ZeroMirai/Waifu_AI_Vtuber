@@ -6,34 +6,20 @@ from functions.create_subtitle import subtitle
 
 # Change your character name here
 name = "kana"
-# Change your path to this code here for example "C:\My code\AI_Vtuber"
-directory_path = r""
 
+directory_path = os.path.dirname(os.path.realpath(__file__))
 gpt_key = API_KEY_OPENAI
 first_time_run = True
+previous_chat = ""
 
 # File names
-answer_file = "answer.txt"
-answer_en_file = "answerEN.txt"
-answer_jp_file = "answerJP.txt"
-newest_chat_file = "NewestChat.txt"
-subtitle_file = "subtitle.txt"
-history_file = "ChatHistory.txt"
-prompt_file = "RoleAndStory.txt"
-story1_file = "story1.txt"
-story2_file = "story2.txt"
-
-# File paths
-file_path_answer = os.path.join(directory_path, answer_file)
-file_path_answer_en = os.path.join(directory_path, answer_en_file)
-file_path_answer_jp = os.path.join(directory_path, answer_jp_file)
-file_path_story1 = os.path.join(directory_path, story1_file)
-file_path_story2 = os.path.join(directory_path, story2_file)
-file_path_prompt = os.path.join(directory_path, prompt_file)
-file_path_history = os.path.join(directory_path, history_file)
-file_path_newest = os.path.join(directory_path, newest_chat_file)
-
-previous_chat = ""
+answer_file = (directory_path + r"\answer.txt")
+answer_en_file = (directory_path + r"\answerEN.txt")
+answer_jp_file = (directory_path + r"\answerJP.txt")
+newest_chat_file = (directory_path + r"\NewestChat.txt")
+subtitle_file = (directory_path + r"\subtitle.txt")
+history_file = (directory_path + r"\ChatHistory.txt")
+prompt_file = (directory_path + r"\RoleAndStory.txt")
 
 
 def clear_files(newest_chat_file, subtitle_file, history_file):
