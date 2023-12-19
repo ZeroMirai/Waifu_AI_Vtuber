@@ -3,7 +3,23 @@
 Waifu_AI_Vtuber is a Python-based AI virtual YouTuber chatbot. The chatbot interacts with live YouTube chat, processes the messages, generates responses using the OpenAI GPT-3.5 model, and provides text-to-speech audio output for responses using VoiceVox engine.
 
 ![Example Image](guide/example.gif)
+---
+## Table of Contents
 
+- [Waifu_AI_Vtuber](#waifu_ai_vtuber)
+  - [Features](#features)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [File Structure](#file-structure)
+  - [Configuration](#configuration)
+  - [Usage](#usage)
+  - [Contributing](#contributing)
+    - [Bug Reports and Feature Requests](#bug-reports-and-feature-requests)
+    - [Pull Requests](#pull-requests)
+  - [Note](#note)
+  - [License](#license)
+  - [Credits](#credits)
+    
 ## Features
 
 - Real-time interaction with YouTube live chat.
