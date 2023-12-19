@@ -175,9 +175,8 @@ Before running the program, Ensure you have changed all the configurations and *
 
 ## Usage
 
-1. Open a terminal or command prompt and change the directory to the project folder by typing `cd` followed by where this folder is located for example `cd C:\Git_hub\Waifu_AI_Vtuber`.
-2. Open VoiceVox engine.
-3. Open `run.bat`.
+1. Open VoiceVox engine.
+2. Open `run.bat`.
    
 ---
 ## Contributing
