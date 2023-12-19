@@ -176,7 +176,7 @@ Before running the program, Ensure you have changed all the configurations and *
 ## Usage
 
 1. Open VoiceVox engine.
-2. Open `run.bat`.
+2. Open `run_main_script.bat` and `run_read_chat_script.bat`.
    
 ---
 ## Contributing
