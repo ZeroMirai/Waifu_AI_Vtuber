@@ -211,7 +211,7 @@ I'm primarily looking for code improvements and bug fixes. Once your changes are
 - If text in obs is not showing, make sure  you place the Subtitle source above the Live2D source.
 - Ensure that you have the required dependencies and configuration set up before running the code.
 - Running the program and VoiceVox engine simultaneously is necessary for proper program functionality.
-- You need to redo steps 5-8 every time the program is opened.
+- You need to redo steps 5-7 every time the program is opened.
 
 ## License
 
